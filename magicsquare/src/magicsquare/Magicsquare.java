@@ -5,6 +5,8 @@
  */
 package magicsquare;
 
+import Controller.Calculator;
+
 /**
  *
  * @author Jerome
@@ -15,7 +17,8 @@ public class Magicsquare {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Calculator controller = new Calculator();
+        controller.init();
     }
     
 }
