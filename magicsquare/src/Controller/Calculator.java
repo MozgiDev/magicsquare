@@ -5,6 +5,7 @@
  */
 package Controller;
 
+import View.MainWindow;
 import View.Window;
 
 /**
@@ -14,7 +15,7 @@ import View.Window;
 public class Calculator {
     
     public void init() {
-        Window fenetre = new Window();
+        MainWindow fenetre = new MainWindow();
         fenetre.setVisible(true);
     }
     
